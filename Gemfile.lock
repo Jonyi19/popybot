@@ -1,5 +1,5 @@
 GIT
-  remote: git://github.com/DreamArtsOkinawa/ruboty-ec2.git
+  remote: https://github.com/DreamArtsOkinawa/ruboty-ec2.git
   revision: 6c576ee287621e7625376fd82d56408a87b4ea35
   specs:
     ruboty-ec2 (0.7.4)
@@ -7,7 +7,7 @@ GIT
       ruboty
 
 GIT
-  remote: git://github.com/DreamArtsOkinawa/ruboty-inc.git
+  remote: https://github.com/DreamArtsOkinawa/ruboty-inc.git
   revision: 2933731b71b39e691e2b110fe57030479b1939bb
   specs:
     ruboty-inc (0.3.5)
@@ -15,7 +15,7 @@ GIT
       ruboty
 
 GIT
-  remote: git://github.com/DreamArtsOkinawa/ruboty-sdb.git
+  remote: https://github.com/DreamArtsOkinawa/ruboty-sdb.git
   revision: 12432d47ed884e38005e35cfc174dbeee62057b0
   specs:
     ruboty-sdb (0.1.4)
@@ -31,7 +31,8 @@ GEM
       minitest (~> 5.1)
       thread_safe (~> 0.3, >= 0.3.4)
       tzinfo (~> 1.1)
-    addressable (2.4.0)
+    addressable (2.5.0)
+      public_suffix (~> 2.0, >= 2.0.2)
     aws-sdk (2.0.48)
       aws-sdk-resources (= 2.0.48)
     aws-sdk-core (2.0.48)
@@ -55,6 +56,7 @@ GEM
     minitest (5.8.4)
     multi_json (1.12.1)
     multipart-post (2.0.0)
+    public_suffix (2.0.4)
     rake (10.5.0)
     redis (3.2.2)
     redis-namespace (1.5.2)
