@@ -1,4 +1,4 @@
-box: wercker/rvm
+box: wercker/ruby
 no-response-timeout: 15
 build:
   steps:
