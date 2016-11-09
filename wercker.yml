@@ -16,7 +16,7 @@ build:
         webhook_url: $SLACK_WEBHOOK_URL
 deploy:
   steps:
-    - heroku-deploy
+    - heroku-deploy:
         key: $HEROKU_KEY
         app-name: $HEROKU_APP_NAME
   after-steps:
