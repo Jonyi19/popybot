@@ -112,8 +112,5 @@ DEPENDENCIES
   ruboty-sdb (= 0.1.4)!
   ruboty-slack
 
-RUBY VERSION
-   ruby 2.1.8p440
-
 BUNDLED WITH
    1.13.6
