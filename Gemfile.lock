@@ -1,24 +1,24 @@
 GIT
-  remote: git://github.com/DreamArtsOkinawa/ruboty-sdb.git
-  revision: 12432d47ed884e38005e35cfc174dbeee62057b0
+  remote: git://github.com/DreamArtsOkinawa/ruboty-ec2.git
+  revision: 6c576ee287621e7625376fd82d56408a87b4ea35
   specs:
-    ruboty-sdb (0.1.4)
-      addressable
-      ruboty
-
-GIT
-  remote: git://github.com/miyaz/ruboty-ec2.git
-  revision: f43a05ed2d24f033b37c99d9964021fadf499656
-  specs:
-    ruboty-ec2 (0.7.3)
+    ruboty-ec2 (0.7.4)
       aws-sdk (~> 2.0.0)
       ruboty
 
 GIT
-  remote: git://github.com/miyaz/ruboty-inc.git
-  revision: f37e4fbdd29573539069e982cece9d055d1d1b78
+  remote: git://github.com/DreamArtsOkinawa/ruboty-inc.git
+  revision: 2933731b71b39e691e2b110fe57030479b1939bb
   specs:
-    ruboty-inc (0.3.4)
+    ruboty-inc (0.3.5)
+      addressable
+      ruboty
+
+GIT
+  remote: git://github.com/DreamArtsOkinawa/ruboty-sdb.git
+  revision: 12432d47ed884e38005e35cfc174dbeee62057b0
+  specs:
+    ruboty-sdb (0.1.4)
       addressable
       ruboty
 
@@ -101,14 +101,17 @@ DEPENDENCIES
   rake
   ruboty-alias
   ruboty-cron
-  ruboty-ec2 (= 0.7.3)!
+  ruboty-ec2 (= 0.7.4)!
   ruboty-echo
   ruboty-google_image
-  ruboty-inc (= 0.3.4)!
+  ruboty-inc (= 0.3.5)!
   ruboty-redis
   ruboty-redis-info
   ruboty-sdb (= 0.1.4)!
   ruboty-slack
 
+RUBY VERSION
+   ruby 2.1.8p440
+
 BUNDLED WITH
-   1.11.2
+   1.13.6
