@@ -2,8 +2,6 @@ box: ruby
 no-response-timeout: 15
 build:
   steps:
-    - rvm-use:
-        version: ruby-2.1.8
     - bundle-install
     - script:
         name: echo ruby information
