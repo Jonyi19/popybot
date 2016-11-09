@@ -10,7 +10,7 @@ build:
           echo "rvm version $(rvm -v) running"
           cat Gemfile
   after-steps:
-    - wantedly/pretty-slack-notify@0.2.10:
+    - wantedly/pretty-slack-notify:
         webhook_url: $SLACK_WEBHOOK_URL
 deploy:
   steps:
@@ -18,6 +18,6 @@ deploy:
         key: $HEROKU_KEY
         app-name: $HEROKU_APP_NAME
   after-steps:
-    - wantedly/pretty-slack-notify@0.2.10:
+    - wantedly/pretty-slack-notify:
         webhook_url: $SLACK_WEBHOOK_URL
 
