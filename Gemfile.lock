@@ -1,8 +1,8 @@
 GIT
   remote: https://github.com/DreamArtsOkinawa/ruboty-ec2.git
-  revision: 26cd9fc4fb0597b53633378c2c58b66ade4881c1
+  revision: 7ce095ddd0c65f4cff1099f3e7713f475daa5dc1
   specs:
-    ruboty-ec2 (0.7.8)
+    ruboty-ec2 (0.7.9)
       addressable
       aws-sdk (~> 2.0.0)
       ruboty
@@ -104,7 +104,7 @@ DEPENDENCIES
   rake
   ruboty-alias
   ruboty-cron
-  ruboty-ec2 (= 0.7.8)!
+  ruboty-ec2 (= 0.7.9)!
   ruboty-echo
   ruboty-google_image
   ruboty-inc (= 0.3.5)!
