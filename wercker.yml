@@ -2,7 +2,9 @@ box: ruby
 no-response-timeout: 15
 build:
   steps:
-    - bundle-install
+    - script:
+        name: Clear bundle cache
+        code: rm -rf /pipeline/cache/bundle-install/ruby/2.3.0/cache/bundler/git/*   - bundle-install
     - script:
         name: echo ruby information
         code: |
