@@ -4,7 +4,8 @@ build:
   steps:
     - script:
         name: Clear bundle cache
-        code: rm -rf /pipeline/cache/bundle-install/ruby/2.3.0/cache/bundler/git/*   - bundle-install
+        code: rm -rf /tmp/build_34d9099605b84e2b5f6cf8c435c2e1aa/vendor/bundle/ruby/2.1.0/cache/bundler/git/*
+    - bundle-install
     - script:
         name: echo ruby information
         code: |
