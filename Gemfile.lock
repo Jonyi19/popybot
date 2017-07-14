@@ -1,4 +1,11 @@
 GIT
+  remote: https://github.com/DreamArtsOkinawa/ruboty-cww.git
+  revision: e2ea55ad0d4ba8b85c3c0d2b415687c03ad518de
+  specs:
+    ruboty-cww (0.8.7)
+      ruboty (>= 1.0.4)
+
+GIT
   remote: https://github.com/DreamArtsOkinawa/ruboty-ec2.git
   revision: e9dbf79d3c15829b4ec74dda26d91e04b61e93e9
   specs:
@@ -86,15 +93,10 @@ GEM
     ruboty-redis-info (0.0.1)
       ruboty
       ruboty-redis
-    ruboty-slack (0.1.12)
-      ruboty (>= 1.0.4)
-      xrc (>= 0.1.8)
     slop (4.4.1)
     thread_safe (0.3.6)
     tzinfo (1.2.3)
       thread_safe (~> 0.1)
-    xrc (0.1.8)
-      activesupport
 
 PLATFORMS
   ruby
@@ -103,6 +105,7 @@ DEPENDENCIES
   rake
   ruboty-alias
   ruboty-cron
+  ruboty-cww (= 0.8.7)!
   ruboty-ec2 (= 0.8.3)!
   ruboty-echo
   ruboty-google_image
@@ -110,7 +113,6 @@ DEPENDENCIES
   ruboty-redis
   ruboty-redis-info
   ruboty-sdb (= 0.1.5)!
-  ruboty-slack
 
 RUBY VERSION
    ruby 2.4.1p111
