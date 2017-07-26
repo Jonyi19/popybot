@@ -1,8 +1,8 @@
 GIT
   remote: https://github.com/DreamArtsOkinawa/ruboty-cww.git
-  revision: 7d08aefef852accbcfce8f0eb675d4b72bcb5331
+  revision: c8190b79dc3e71f41fb41ac05f14e046ce1db51f
   specs:
-    ruboty-cww (0.8.8)
+    ruboty-cww (0.8.9)
       ruboty (>= 1.0.4)
 
 GIT
@@ -105,7 +105,7 @@ DEPENDENCIES
   rake
   ruboty-alias
   ruboty-cron
-  ruboty-cww (= 0.8.8)!
+  ruboty-cww (= 0.8.9)!
   ruboty-ec2 (= 0.8.4)!
   ruboty-echo
   ruboty-google_image
@@ -118,4 +118,4 @@ RUBY VERSION
    ruby 2.4.1p111
 
 BUNDLED WITH
-   1.15.1
+   1.15.3
