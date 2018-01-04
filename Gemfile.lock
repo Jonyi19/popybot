@@ -7,9 +7,9 @@ GIT
 
 GIT
   remote: https://github.com/DreamArtsOkinawa/ruboty-ec2.git
-  revision: db882fd2714062d92fa51775dbab46e4fdf6a420
+  revision: 165dabe5c1cc0a78531d3991a25654b6cef310c2
   specs:
-    ruboty-ec2 (0.8.4)
+    ruboty-ec2 (0.8.5)
       addressable
       aws-sdk (~> 2.0.0)
       ruboty
@@ -61,7 +61,7 @@ GEM
     jmespath (1.3.1)
     mem (0.1.5)
     minitest (5.10.1)
-    multi_json (1.12.1)
+    multi_json (1.12.2)
     multipart-post (2.0.0)
     public_suffix (2.0.5)
     rake (12.0.0)
@@ -106,7 +106,7 @@ DEPENDENCIES
   ruboty-alias
   ruboty-cron
   ruboty-cww (= 0.8.11)!
-  ruboty-ec2 (= 0.8.4)!
+  ruboty-ec2 (= 0.8.5)!
   ruboty-echo
   ruboty-google_image
   ruboty-inc (= 0.3.5)!
@@ -118,4 +118,4 @@ RUBY VERSION
    ruby 2.4.2p198
 
 BUNDLED WITH
-   1.15.4
+   1.16.1
