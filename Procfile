@@ -1,1 +1,1 @@
-bot: bundle exec ruboty
+bot: sudo bundle exec ruboty 
