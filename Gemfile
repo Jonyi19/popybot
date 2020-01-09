@@ -9,7 +9,9 @@ gem "ruboty-redis"
 gem "ruboty-redis-info"
 #gem "ruboty-slack"
 gem "ruboty-echo"
-gem 'ruboty-cww', '0.8.12', :git => 'https://github.com/DreamArtsOkinawa/ruboty-cww.git'
+#gem 'ruboty-cww', '0.8.12', :git => 'https://github.com/DreamArtsOkinawa/ruboty-cww.git'
 gem 'ruboty-ec2', '0.9.6', :git => 'https://github.com/DreamArtsOkinawa/ruboty-ec2.git'
 gem 'ruboty-inc', '0.3.5', :git => 'https://github.com/DreamArtsOkinawa/ruboty-inc.git'
 gem 'ruboty-sdb', '0.1.5', :git => 'https://github.com/DreamArtsOkinawa/ruboty-sdb.git'
+gem 'ruboty-teams', '0.1.3', :git => 'https://stainless.dreamarts.co.jp/JKK/ruboty-teams.git'
+gem "timers"
