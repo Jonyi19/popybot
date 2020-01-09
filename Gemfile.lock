@@ -25,9 +25,9 @@ GIT
 
 GIT
   remote: https://github.com/DreamArtsOkinawa/ruboty-teams.git
-  revision: 4770366d1c80f3ed7bc5d5c0f92a12cdd3993380
+  revision: 0ee632fc6a24efe4760c7e33a4ccc7b6923830ea
   specs:
-    ruboty-teams (0.1.1)
+    ruboty-teams (0.1.2)
       htmlentities
       ruboty
       sanitize
@@ -131,7 +131,7 @@ DEPENDENCIES
   ruboty-redis
   ruboty-redis-info
   ruboty-sdb (= 0.1.5)!
-  ruboty-teams (= 0.1.1)!
+  ruboty-teams (= 0.1.2)!
   timers
 
 RUBY VERSION
