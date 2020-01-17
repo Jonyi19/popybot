@@ -1,0 +1,42 @@
+version: "2"
+services:
+  skt_test:
+    container_name: skt_test
+    build: .
+    env_file: .env_skt_test
+    depends_on:
+     - redis
+  skt_demo:
+    container_name: skt_demo
+    build: .
+    env_file: .env_skt_demo 
+    depends_on:
+     - redis
+  skt_support:
+    container_name: skt_support
+    build: .
+    env_file: .env_skt_support
+    depends_on:
+     - redis
+  reverse-proxy:
+    container_name: reverse-proxy-server
+    image: nginx:1.17.7-alpine
+    volumes:
+      - ./nginx.conf:/etc/nginx/nginx.confcd
+      - ./cert.pem:/etc/nginx/cert.pem
+      - ./cert.key:/etc/nginx/cert.key
+    ports:
+      - "80:80"
+      - "443:443"
+    depends_on:
+      - skt_test
+      - skt_demo
+      - skt_support
+  redis:
+    container_name: redis-server
+    image: redis:5.0.7-alpine
+    volumes:
+      - ./redis.conf:/etc/redis/redis.conf
+      - ./redis_data:/data
+
+    

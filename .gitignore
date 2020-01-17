@@ -1,1 +1,5 @@
-.env
+.env_*
+cert*
+/redis_data/*
+.bundle/
+!/redis_data/.gitkeep
